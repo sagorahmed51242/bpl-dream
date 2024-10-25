@@ -19,6 +19,12 @@ const Main = ({isAvailablePlayerActive,handleAvailablePlayer,handleSelectedPlaye
                 position: "top-center",
                 autoClose:3000,
             });
+        }else if(selectedPlayers.length === 6){
+            toast.error("Opps! 6 Players Already added",{
+                position:"top-center",
+                autoClose:3000,
+            })
+
         }else{
             toast.success("You'v successfully selected!",{
                 position: "top-center",

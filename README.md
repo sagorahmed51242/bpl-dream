@@ -1,8 +1,16 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+** The name of the project is: BPL-DREAM 11
 
-Currently, two official plugins are available:
+** short description: This is bpl dream 11 website from where you could see the available players and their description also you could choose them.
+after choosing you could also delete and rechoose.
+You have free coin claim button through which you get coin to buy players.
+You could choose maximum 6 players.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+** Technologies: In this project I've used html, tailwind css, daisyUI, and React.
+
+
+** 3 key features of your project:
+1) The first key feature is free coin claim button that allows you to get free coin.
+2) Another feature is that you could see the availabl players and theri description.
+3) and Finally you could choose them and delete them if you want.
