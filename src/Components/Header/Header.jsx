@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Header = ({coin}) => {
   return (
-    <div>
+    <div className='sticky top-0 z-50 bg-white'>
 
       {/* nav bar */}
       <div className="flex justify-between items-center">
