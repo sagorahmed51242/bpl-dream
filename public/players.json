@@ -1,0 +1,152 @@
+[
+    {
+        "player_id": "P001",
+        "name": "Virat Kohli",
+        "country": "India",
+        "image": "https://i.ibb.co.com/7nvNmQg/gettyimages-1472909629-612x612.jpg",
+        "role": "Batsman",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Right-arm Medium",
+        "bidding_price": 2400000
+    },
+    {
+        "player_id": "P002",
+        "name": "Ben Stokes",
+        "country": "England",
+        "image": "https://i.ibb.co.com/s6LVxSs/gettyimages-2158527740-612x612.jpg",
+        "role": "All-rounder",
+        "batting_type": "Left-hand Bat",
+        "bowling_type": "Right-arm Fast",
+        "bidding_price": 1900000
+    },
+    {
+        "player_id": "P003",
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/YXV1X87/gettyimages-1781864923-612x612.jpg",
+        "role": "Bowler",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Right-arm Fast",
+        "bidding_price": 1500000
+    },
+    {
+        "player_id": "P004",
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "image": "https://i.ibb.co.com/cxg2p2j/gettyimages-1364185185-612x612.jpg",
+        "role": "Bowler",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Right-arm Leg Spin",
+        "bidding_price": 1200000
+    },
+    {
+        "player_id": "P005",
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "image": "https://i.ibb.co.com/HHQQZfS/gettyimages-1445584879-612x612.jpg",
+        "role": "Batsman",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Right-arm Off Spin",
+        "bidding_price": 1300000
+    },
+    {
+        "player_id": "P006",
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "image": "https://i.ibb.co.com/4SCnp9z/gettyimages-1982878048-612x612.jpg",
+        "role": "Bowler",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Right-arm Fast",
+        "bidding_price": 1700000
+    },
+    {
+        "player_id": "P007",
+        "name": "David Warner",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/n3Qz7Bb/gettyimages-1160440588-612x612.jpg",
+        "role": "Batsman",
+        "batting_type": "Left-hand Bat",
+        "bowling_type": "Right-arm Leg Spin",
+        "bidding_price": 1800000
+    },
+    {
+        "player_id": "P008",
+        "name": "AB de Villiers",
+        "country": "South Africa",
+        "image": "https://i.ibb.co.com/fqDJHG5/gettyimages-690041264-612x612.jpg",
+        "role": "Batsman",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Right-arm Medium",
+        "bidding_price": 2000000
+    },
+    {
+        "player_id": "P009",
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "image": "https://i.ibb.co.com/n3hZwpF/gettyimages-632750366-612x612.jpg",
+        "role": "Batsman",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Right-arm Off Spin",
+        "bidding_price": 1600000
+    },
+    {
+        "player_id": "P010",
+        "name": "Kieron Pollard",
+        "country": "West Indies",
+        "image": "https://i.ibb.co.com/44XGwH3/gettyimages-1457170157-612x612.jpg",
+        "role": "All-rounder",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Right-arm Medium",
+        "bidding_price": 1400000
+    },
+    {
+        "player_id": "P011",
+        "name": "Shaheen Afridi",
+        "country": "Pakistan",
+        "image": "https://i.ibb.co.com/PcCkG4h/gettyimages-1766575033-612x612.jpg",
+        "role": "Bowler",
+        "batting_type": "Left-hand Bat",
+        "bowling_type": "Left-arm Fast",
+        "bidding_price": 1100000
+    },
+    {
+        "player_id": "P012",
+        "name": "Jos Buttler",
+        "country": "England",
+        "image": "https://i.ibb.co.com/Kx9CWLQ/gettyimages-1440486160-612x612.jpg",
+        "role": "Wicketkeeper Batsman",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Left-arm Fast",
+        "bidding_price": 1300000
+    },
+    {
+        "player_id": "P013",
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/S5JcxmB/gettyimages-1472307522-2048x2048.jpg",
+        "role": "All-rounder",
+        "batting_type": "Left-hand Bat",
+        "bowling_type": "Left-arm Off Spin",
+        "bidding_price": 1000000
+    },
+    {
+        "player_id": "P014",
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "image": "https://i.ibb.co.com/MkLxZqb/gettyimages-2157366662-612x612.jpg",
+        "role": "Bowler",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Left-arm Fast",
+        "bidding_price": 1200000
+    },
+    {
+        "player_id": "P015",
+        "name": "Andre Russell",
+        "country": "West Indies",
+        "image": "https://i.ibb.co.com/FBj0HJ7/gettyimages-502680668-612x612.jpg",
+        "role": "All-rounder",
+        "batting_type": "Right-hand Bat",
+        "bowling_type": "Right-arm Fast",
+        "bidding_price": 1500000
+    }
+]
