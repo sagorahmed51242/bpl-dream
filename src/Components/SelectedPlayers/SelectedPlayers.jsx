@@ -7,6 +7,9 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 const SelectedPlayers = ({selectedPlayers,handleDeletePlayer,handleAvailablePlayer}) => {
   return (
     <div>
+      <div>
+        <h1 className='text-2xl font-bold pb-5'>Selected Players ({selectedPlayers.length}/6)</h1>
+      </div>
       {selectedPlayers.map((player,index) => (
         <div className='flex justify-between items-center border p-2 rounded-lg mb-2' key={index}>
           <div className='flex items-center gap-2'>

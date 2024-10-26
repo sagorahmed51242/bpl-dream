@@ -1,20 +1,18 @@
 import PropTypes from 'prop-types'
+import logo from './../../assets/images/logo.png';
+import dollar from './../../assets/images/dollar.png';
 
 
 const Header = ({coin}) => {
   return (
-    <div className='sticky top-0 z-50 bg-white'>
+    <div className='sticky top-0 z-50 bg-[#ffffffca] py-3 backdrop-blur-sm'>
 
-      {/* nav bar */}
       <div className="flex justify-between items-center">
 
-
-        {/* logo */}
         <div>
-          <img src="../../../src/assets/images/logo.png" alt="this is the logo" />
+          <img src={logo} alt="this is the logo" />
         </div>
 
-        {/* Menu of the nav bar */}
         <div className="flex items-center">
           <ul className="flex text-[#131313B3] gap-12 items-center">
           <li>Home</li>
@@ -23,7 +21,7 @@ const Header = ({coin}) => {
           <li>Schedules</li>
 
           {/* Coin button */}
-          <li><button className="border flex p-2 rounded-lg font-bold">{coin} Coin <img className="w-5" src="../../../src/assets/images/dollar.png" alt="icon of dollar" /></button></li>
+          <li><button className="border flex p-2 rounded-lg font-bold">{coin} Coin <img className="w-5" src={dollar} alt="icon of dollar" /></button></li>
         </ul>
         </div>
       </div>

@@ -1,10 +1,10 @@
-
+import footerIcon from './../../assets/images/logo-footer.png'
 const Footer = () => {
   return (
     <div className="bg-[#06091A]">
       <div className="container mx-auto">
               <div className="flex justify-center pt-56">
-                <img src="../../../src/assets/images/logo-footer.png" alt="" />
+                <img src={footerIcon} alt="" />
               </div>
               <div className="flex justify-between text-[#FFFFFF99] py-20">
                   <div>

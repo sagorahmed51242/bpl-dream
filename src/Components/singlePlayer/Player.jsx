@@ -19,6 +19,7 @@ const Player = ({player,handleChooseSelectedPlayers}) => {
         <div className='flex gap-2 items-center'><FontAwesomeIcon  icon={faFlag} /><h1>{country}</h1></div>
         <div className='bg-gray-100 px-3 py-1 rounded-lg'>{role}</div>
     </div>
+    <hr/>
     <div className='flex flex-col gap-2'>
         <div><h2 className='font-bold'>Rating</h2></div>
         <div className='flex justify-between items-center font-bold'>

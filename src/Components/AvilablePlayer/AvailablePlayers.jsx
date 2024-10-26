@@ -13,9 +13,13 @@ const AvailablePlayers = ({handleChooseSelectedPlayers}) => {
 
 
   return (
-    <div className="grid grid-cols-3 justify-center gap-5">
-      {availablePlayers.map((player,index) => <Player key={index} player={player} handleChooseSelectedPlayers={handleChooseSelectedPlayers}/>)}
-
+    <div>
+      <div>
+        <h1 className="text-2xl font-bold pb-5">Available Players</h1>
+      </div>
+      <div className="grid grid-cols-3 justify-center gap-5">
+        {availablePlayers.map((player,index) => <Player key={index} player={player} handleChooseSelectedPlayers={handleChooseSelectedPlayers}/>)}
+      </div>
     </div>
   )
 }

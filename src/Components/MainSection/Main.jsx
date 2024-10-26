@@ -10,12 +10,12 @@ const Main = ({isAvailablePlayerActive,handleAvailablePlayer,handleSelectedPlaye
     const handleChooseSelectedPlayers = (choosenPlayer) => {
         const isExist = selectedPlayers.find(player => player.player_id === choosenPlayer.player_id);
         if(isExist) {
-            toast.error("This Player is Already Choosen!",{
+            toast.error("This Player is Already Exits in your team!",{
                 position: "top-center",
                 autoClose:3000,
             });
         }else if(coin < choosenPlayer.bidding_price){
-            toast.error("You don't have enough coin!",{
+            toast.error("You don't have enough coin to buy this player.Please clain free coins!",{
                 position: "top-center",
                 autoClose:3000,
             });
@@ -26,7 +26,7 @@ const Main = ({isAvailablePlayerActive,handleAvailablePlayer,handleSelectedPlaye
             })
 
         }else{
-            toast.success("You'v successfully selected!",{
+            toast.success(`Awesome! You'v successfully selected  "${choosenPlayer.name}" in your team!`,{
                 position: "top-center",
                 autoClose:3000,
             });
@@ -36,6 +36,10 @@ const Main = ({isAvailablePlayerActive,handleAvailablePlayer,handleSelectedPlaye
     }
 
     const handleDeletePlayer = (id) => {
+        toast.error("Player Deleted successfully!",{
+            autoClose:3000,
+        });
+
         const player = selectedPlayers.find(player => player.player_id === id);
 
         const newPlayer = selectedPlayers.filter(player => player.player_id !== id);
@@ -46,14 +50,9 @@ const Main = ({isAvailablePlayerActive,handleAvailablePlayer,handleSelectedPlaye
 
   return (
     <div>
-        <div className="flex justify-between items-center py-10">
-            <div>
-                {isAvailablePlayerActive?<h1 className="text-2xl font-bold">Available Players</h1>:<h1 className="text-2xl font-bold">Selected Player({selectedPlayers.length}/6)</h1>}
-            </div>
-            <div>
-                <button onClick={handleAvailablePlayer} className={`${isAvailablePlayerActive?'text-lg border py-2 px-5 rounded-l-xl bg-[#E7FE29]':'text-lg border py-2 px-5 rounded-l-xl'}`}>Available</button>
-                <button onClick={handleSelectedPlayer} className={`${isAvailablePlayerActive?'text-lg border py-2 px-5 rounded-r-xl':'text-lg border py-2 px-5 rounded-r-xl bg-[#E7FE29]'}`}>Selected {selectedPlayers.length}</button>
-            </div>
+        <div className="py-10 text-right">
+            <button onClick={handleAvailablePlayer} className={`${isAvailablePlayerActive?'text-lg border py-2 px-5 rounded-l-xl bg-[#E7FE29]':'text-lg border bg-white py-2 px-5 rounded-l-xl'}`}>Available</button>
+            <button onClick={handleSelectedPlayer} className={`${isAvailablePlayerActive?'text-lg border py-2 px-5 bg-white rounded-r-xl':'text-lg border py-2 px-5 rounded-r-xl bg-[#E7FE29]'}`}>Selected {selectedPlayers.length}</button>
         </div>
 
         {isAvailablePlayerActive? <AvailablePlayers handleChooseSelectedPlayers={handleChooseSelectedPlayers}/> : <SelectedPlayers selectedPlayers={selectedPlayers} handleDeletePlayer={handleDeletePlayer} handleAvailablePlayer={handleAvailablePlayer}/>}
